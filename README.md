@@ -1,36 +1,46 @@
-
 # KalkulatorKu
 
-## Deskripsi
-KalkulatorKu merupakan library buatan sendiri
-menggunakan bahasa pemrograman Java.
-
-Library ini dibuat untuk menyediakan fungsi
-perhitungan matematika dasar yang dapat digunakan
-kembali pada project Java lainnya.
+**KalkulatorKu** adalah Custom Java Library yang menyediakan fungsi operasi matematika dasar menggunakan bahasa pemrograman Java.
 
 ## Fitur
+
+Library ini menyediakan beberapa operasi matematika:
+
 - Penjumlahan
 - Pengurangan
 - Perkalian
 - Pembagian
 - Menghitung luas persegi
 
-## Teknologi
-- Java
-- Visual Studio Code
-- JDK
+## Struktur Proyek
+
+```text
+KalkulatorKu/
+├── src/
+│   ├── kalkulatorku/
+│   │   └── Kalkulator.java
+│   └── Main.java
+├── KalkulatorKu.jar
+└── README.md
+```
 
 ## Cara Penggunaan
-Library dapat digunakan dengan mengimpor package:
 
-    import kalkulatorku.Kalkulator;
+Import library ke dalam program Java:
+
+```java
+import kalkulatorku.Kalkulator;
+```
 
 Contoh penggunaan:
 
-    double hasil = Kalkulator.tambah(10, 5);
-
-    System.out.println(hasil);
+```java
+double hasil = Kalkulator.tambah(10, 5);
+System.out.println(hasil);
+```
 
 ## Pengembang
+
 KalkulatorKu - Custom Java Library
+
+Dibuat menggunakan bahasa pemrograman Java.
